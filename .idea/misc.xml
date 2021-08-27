@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/03/HelloWord/pom.xml" />
+        <option value="$PROJECT_DIR$/04/application/pom.xml" />
+        <option value="$PROJECT_DIR$/04/MultiYmlDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/04/HelloWorldBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/04/PropertiesDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/05/MVCDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/05/HelloWord/pom.xml" />
+        <option value="$PROJECT_DIR$/05/Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/05/ValidatorDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/06/WebFluxMongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/06/WebfluxDemoCURD/pom.xml" />
+        <option value="$PROJECT_DIR$/06/WebfluxReactiveDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/06/WebFluxDemoHelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/07/IOC/pom.xml" />
+        <option value="$PROJECT_DIR$/07/Error/pom.xml" />
+        <option value="$PROJECT_DIR$/07/AopLog/pom.xml" />
+        <option value="$PROJECT_DIR$/07/Servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/07/Starter/StarterDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/07/Starter/TestStarterDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/07/ServletDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/07/UnitTestDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/07/HelloWorldBooter/pom.xml" />
+        <option value="$PROJECT_DIR$/07/MyAnnotationDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/07/UnitTestDemoJpaTest/pom.xml" />
+        <option value="$PROJECT_DIR$/07/CustomerBusinessException/pom.xml" />
+        <option value="$PROJECT_DIR$/08/Jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/08/JpaEntityDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/08/JpaArticleDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/08/JpaOneToOneDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/08/JpaOneToManyDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/08/MybatisCURD Page/pom.xml" />
+        <option value="$PROJECT_DIR$/08/JpaManyToManyDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/09/RESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/09/Swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/09/RestTemplateDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/10/JwtDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/10/RbacDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/10/JSR_250Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/10/ShiroJpaMysql/pom.xml" />
+        <option value="$PROJECT_DIR$/10/SpringSecuritySimpleDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/11/Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/11/CacheDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/11/RedisCURD/pom.xml" />
+        <option value="$PROJECT_DIR$/11/RedisSession/pom.xml" />
+        <option value="$PROJECT_DIR$/11/JpaArticleRedisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/12/Rabbitmq_QueueDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/12/Rabbitmq_TopicDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/12/Rabbitmq_FanoutDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/12/Rabbitmq_ObjectDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/12/Rabbitmq_DelayedDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/13/Solr/pom.xml" />
+        <option value="$PROJECT_DIR$/13/ELKDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/13/ElasticsearchProductDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/13/ElasticsearchProductSearch/pom.xml" />
+        <option value="$PROJECT_DIR$/13/ElasticsearchProductSearchDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/14/ManagementSystemDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/15/JD_Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/HelloWord/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
