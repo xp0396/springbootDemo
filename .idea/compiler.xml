@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo (38)" />
+        <module name="demo (14)" />
+        <module name="demo (26)" />
+        <module name="demo (34)" />
+        <module name="demo (46)" />
+        <module name="demo (54)" />
+        <module name="demo (10)" />
+        <module name="demo (22)" />
+        <module name="demo (5)" />
+        <module name="demo (9)" />
+        <module name="demo (18)" />
+        <module name="TestStarterDemo" />
+        <module name="demo (4)" />
+        <module name="demo (41)" />
+        <module name="demo (53)" />
+        <module name="demo (27)" />
+        <module name="demo (39)" />
+        <module name="demo (47)" />
+        <module name="demo (15)" />
+        <module name="demo (23)" />
+        <module name="demo (35)" />
+        <module name="demo (43)" />
+        <module name="demo (55)" />
+        <module name="demo (11)" />
+        <module name="demo (8)" />
+        <module name="demo (19)" />
+        <module name="demo (3)" />
+        <module name="demo (30)" />
+        <module name="demo (42)" />
+        <module name="demo (50)" />
+        <module name="demo (16)" />
+        <module name="demo (28)" />
+        <module name="demo (36)" />
+        <module name="demo (48)" />
+        <module name="demo (56)" />
+        <module name="demo (12)" />
+        <module name="demo (24)" />
+        <module name="demo (32)" />
+        <module name="demo (44)" />
+        <module name="demo (7)" />
+        <module name="demo" />
+        <module name="demo (2)" />
+        <module name="demo (31)" />
+        <module name="demo (51)" />
+        <module name="demo (49)" />
+        <module name="demo (17)" />
+        <module name="demo (25)" />
+        <module name="demo (37)" />
+        <module name="demo (45)" />
+        <module name="demo (57)" />
+        <module name="demo (13)" />
+        <module name="demo (21)" />
+        <module name="demo (33)" />
+        <module name="demo (6)" />
+        <module name="demo (29)" />
+        <module name="demo (1)" />
+        <module name="demo (52)" />
+        <module name="demo (20)" />
+        <module name="demo (40)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (10)" target="1.8" />
+      <module name="demo (11)" target="1.8" />
+      <module name="demo (12)" target="1.8" />
+      <module name="demo (13)" target="1.8" />
+      <module name="demo (14)" target="1.8" />
+      <module name="demo (15)" target="1.8" />
+      <module name="demo (16)" target="1.8" />
+      <module name="demo (17)" target="1.8" />
+      <module name="demo (18)" target="1.8" />
+      <module name="demo (19)" target="1.8" />
+      <module name="demo (2)" target="1.8" />
+      <module name="demo (20)" target="1.8" />
+      <module name="demo (21)" target="1.8" />
+      <module name="demo (22)" target="1.8" />
+      <module name="demo (23)" target="1.8" />
+      <module name="demo (24)" target="1.8" />
+      <module name="demo (25)" target="1.8" />
+      <module name="demo (26)" target="1.8" />
+      <module name="demo (27)" target="1.8" />
+      <module name="demo (28)" target="1.8" />
+      <module name="demo (29)" target="1.8" />
+      <module name="demo (3)" target="1.8" />
+      <module name="demo (30)" target="1.8" />
+      <module name="demo (31)" target="1.8" />
+      <module name="demo (32)" target="1.8" />
+      <module name="demo (33)" target="1.8" />
+      <module name="demo (34)" target="1.8" />
+      <module name="demo (35)" target="1.8" />
+      <module name="demo (36)" target="1.8" />
+      <module name="demo (37)" target="1.8" />
+      <module name="demo (38)" target="1.8" />
+      <module name="demo (39)" target="1.8" />
+      <module name="demo (4)" target="1.8" />
+      <module name="demo (40)" target="1.8" />
+      <module name="demo (41)" target="1.8" />
+      <module name="demo (42)" target="1.8" />
+      <module name="demo (43)" target="1.8" />
+      <module name="demo (44)" target="1.8" />
+      <module name="demo (45)" target="1.8" />
+      <module name="demo (46)" target="1.8" />
+      <module name="demo (47)" target="1.8" />
+      <module name="demo (48)" target="1.8" />
+      <module name="demo (49)" target="1.8" />
+      <module name="demo (5)" target="1.8" />
+      <module name="demo (50)" target="1.8" />
+      <module name="demo (51)" target="1.8" />
+      <module name="demo (52)" target="1.8" />
+      <module name="demo (53)" target="1.8" />
+      <module name="demo (54)" target="1.8" />
+      <module name="demo (55)" target="1.8" />
+      <module name="demo (56)" target="1.8" />
+      <module name="demo (57)" target="1.8" />
+      <module name="demo (6)" target="1.8" />
+      <module name="demo (7)" target="1.8" />
+      <module name="demo (8)" target="1.8" />
+      <module name="demo (9)" target="1.8" />
+      <module name="TestStarterDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TestStarterDemo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (10)" options="-parameters" />
+      <module name="demo (11)" options="-parameters" />
+      <module name="demo (12)" options="-parameters" />
+      <module name="demo (13)" options="-parameters" />
+      <module name="demo (14)" options="-parameters" />
+      <module name="demo (15)" options="-parameters" />
+      <module name="demo (16)" options="-parameters" />
+      <module name="demo (17)" options="-parameters" />
+      <module name="demo (18)" options="-parameters" />
+      <module name="demo (19)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="demo (20)" options="-parameters" />
+      <module name="demo (21)" options="-parameters" />
+      <module name="demo (22)" options="-parameters" />
+      <module name="demo (23)" options="-parameters" />
+      <module name="demo (24)" options="-parameters" />
+      <module name="demo (25)" options="-parameters" />
+      <module name="demo (26)" options="-parameters" />
+      <module name="demo (27)" options="-parameters" />
+      <module name="demo (28)" options="-parameters" />
+      <module name="demo (29)" options="-parameters" />
+      <module name="demo (3)" options="-parameters" />
+      <module name="demo (30)" options="-parameters" />
+      <module name="demo (31)" options="-parameters" />
+      <module name="demo (32)" options="-parameters" />
+      <module name="demo (33)" options="-parameters" />
+      <module name="demo (34)" options="-parameters" />
+      <module name="demo (35)" options="-parameters" />
+      <module name="demo (36)" options="-parameters" />
+      <module name="demo (37)" options="-parameters" />
+      <module name="demo (38)" options="-parameters" />
+      <module name="demo (39)" options="-parameters" />
+      <module name="demo (4)" options="-parameters" />
+      <module name="demo (40)" options="-parameters" />
+      <module name="demo (41)" options="-parameters" />
+      <module name="demo (42)" options="-parameters" />
+      <module name="demo (43)" options="-parameters" />
+      <module name="demo (44)" options="-parameters" />
+      <module name="demo (45)" options="-parameters" />
+      <module name="demo (46)" options="-parameters" />
+      <module name="demo (47)" options="-parameters" />
+      <module name="demo (48)" options="-parameters" />
+      <module name="demo (49)" options="-parameters" />
+      <module name="demo (5)" options="-parameters" />
+      <module name="demo (50)" options="-parameters" />
+      <module name="demo (51)" options="-parameters" />
+      <module name="demo (52)" options="-parameters" />
+      <module name="demo (53)" options="-parameters" />
+      <module name="demo (54)" options="-parameters" />
+      <module name="demo (55)" options="-parameters" />
+      <module name="demo (56)" options="-parameters" />
+      <module name="demo (57)" options="-parameters" />
+      <module name="demo (6)" options="-parameters" />
+      <module name="demo (7)" options="-parameters" />
+      <module name="demo (8)" options="-parameters" />
+      <module name="demo (9)" options="-parameters" />
+    </option>
+  </component>
+</project>
