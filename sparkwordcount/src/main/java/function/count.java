@@ -1,4 +1,4 @@
-package com.bolingcavalry.sparkwordcount;
+package function;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.SparkConf;
@@ -12,42 +12,32 @@ import scala.Tuple2;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
-/**
- * @Description: spark的WordCount实战
- * @author: willzhao E-mail: zq2599@gmail.com
- * @date: 2019/2/8 17:21
- */
-public class WordCount {
+public class count {
+    private static final Logger logger = LoggerFactory.getLogger(count.class);
+    public static void   dataProcess(HashMap<String,String> envSource) {
+        // 主机IP
+        String hdfsHost = envSource.get("batch.hostIp");
+        // 主机端口
+        String hdfsPort = envSource.get("batch.hostPort");
+        //文本文件的hdfs路径
+        String inputPath = envSource.get("batch.inputFile");
+        //输出结果文件的路径
+        String outputPath  =  envSource.get("batch.outputFile");
+        //具体位置
+        SparkConf sparkConf = new SparkConf();
 
-    private static final Logger logger = LoggerFactory.getLogger(WordCount.class);
-
-    public static void main(String[] args) {
-        if(null==args
-        || args.length<3
-        || StringUtils.isEmpty(args[0])
-        || StringUtils.isEmpty(args[1])
-        || StringUtils.isEmpty(args[2])) {
-            logger.error("invalid params!");
+        if (StringUtils.equals(hdfsHost,"local[*]")) {
+            sparkConf.setMaster(hdfsHost).setAppName("Spark WordCount Application (java)");
+        }else{
+            //hdfs
+            sparkConf.setAppName("Spark WordCount Application (java)");
         }
 
 
-        String hdfsHost = args[0];
-        String hdfsPort = args[1];
-        String textFileName = args[2];
-
-        SparkConf sparkConf = new SparkConf().setAppName("Spark WordCount Application (java)");
-
         JavaSparkContext javaSparkContext = new JavaSparkContext(sparkConf);
-
-        String hdfsBasePath = "hdfs://" + hdfsHost + ":" + hdfsPort;
-        //文本文件的hdfs路径
-        String inputPath = hdfsBasePath + "/input/" + textFileName;
-
-        //输出结果文件的hdfs路径
-        String outputPath = hdfsBasePath + "/output/"
-                       + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
         logger.info("input path : {}", inputPath);
         logger.info("output path : {}", outputPath);
@@ -82,9 +72,9 @@ public class WordCount {
         //打印出来
         for(Tuple2<Integer, String> tuple2 : top10){
             sbud.append(tuple2._2())
-                .append("\t")
-                .append(tuple2._1())
-                .append("\n");
+                    .append("\t")
+                    .append(tuple2._1())
+                    .append("\n");
         }
 
         logger.info(sbud.toString());
@@ -97,4 +87,5 @@ public class WordCount {
         //关闭context
         javaSparkContext.close();
     }
+
 }
