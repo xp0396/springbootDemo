@@ -14,26 +14,20 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class count {
-    private  static final Logger logger = LoggerFactory.getLogger(count.class);
+public class countByArrayList {
+    private  static final Logger logger = LoggerFactory.getLogger(countByArrayList.class);
     public static void   dataProcess(HashMap<String, String> envSource) {
         // 主机IP
         String hdfsHost = envSource.get("batch.hostIp");
-        // 主机端口
-        String hdfsPort = envSource.get("batch.hostPort");
-        //文本文件的hdfs路径
-        String inputPath = envSource.get("batch.inputFile");
         //输出结果文件的路径
         String outputPath  =  envSource.get("batch.outputFile");
         //建立连接
         JavaSparkContext javaSparkContext = creContext(hdfsHost);
 
-        logger.info("input path : {}", inputPath);
         logger.info("output path : {}", outputPath);
         logger.info("import text");
 
         //导入文件
-        //JavaRDD<String> textFile = loadData(inputPath,javaSparkContext);
         JavaRDD<String> textFile = loadData("",javaSparkContext);
 
         //主处理
@@ -64,17 +58,12 @@ public class count {
     /*加载数据*/
     private  static  JavaRDD<String>  loadData(String fileName,JavaSparkContext sc) {
 
-        if (!StringUtils.isEmpty(fileName)) {
-            JavaRDD<String> textFile = sc.textFile(fileName);
-            return textFile;
-        } else {
             // by ArrayList
             List<String> dataList = new ArrayList<String>();
             dataList.add("11,22,33,44,55,66");
             dataList.add("aa,bb,cc,dd,ee,ff");
             JavaRDD<String> textFile = sc.parallelize(dataList);
             return textFile;
-        }
     }
     /*数据统计*/
     private  static  List<Tuple2<Integer, String>> mrProcess(JavaRDD<String> textFile){

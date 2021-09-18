@@ -1,20 +1,15 @@
 package main;
 
-import function.count;
+import function.*;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import scala.Tuple2;
 
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
+
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
+
 
 /**
  * @Description: spark的WordCount实战
@@ -51,7 +46,8 @@ public class WordCount {
             envSource.put("batch.inputFile",inputFile);
             envSource.put("batch.outputFile",outputFile);
         }
-        count.dataProcess(envSource);
+        //count.dataProcess(envSource);//count word from txt file
+        countByArrayList.dataProcess(envSource);//count word from arrayList
     }
 
 }
