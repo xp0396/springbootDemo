@@ -33,8 +33,8 @@ public class count {
         logger.info("import text");
 
         //导入文件
-        //JavaRDD<String> textFile = loadData(inputPath,javaSparkContext);
-        JavaRDD<String> textFile = loadData("",javaSparkContext);
+        JavaRDD<String> textFile = loadData(inputPath,javaSparkContext);
+        //JavaRDD<String> textFile = loadData("",javaSparkContext);
 
         //主处理
         logger.info("do map operation");
@@ -43,7 +43,7 @@ public class count {
 
         logger.info("merge and save as file");
         //分区合并成一个，再导出为一个txt保存在hdfs
-        javaSparkContext.parallelize(top10).coalesce(1).saveAsTextFile(outputPath);
+        //javaSparkContext.parallelize(top10).coalesce(1).saveAsTextFile(outputPath);
 
         //关闭context
         closeContext(javaSparkContext);

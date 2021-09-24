@@ -63,6 +63,9 @@ public class countByArrayList {
             dataList.add("11,22,33,44,55,66");
             dataList.add("aa,bb,cc,dd,ee,ff");
             JavaRDD<String> textFile = sc.parallelize(dataList);
+
+
+
             return textFile;
     }
     /*数据统计*/

@@ -46,8 +46,8 @@ public class WordCount {
             envSource.put("batch.inputFile",inputFile);
             envSource.put("batch.outputFile",outputFile);
         }
-        //count.dataProcess(envSource);//count word from txt file
-        countByArrayList.dataProcess(envSource);//count word from arrayList
+        count.dataProcess(envSource);//count word from txt file
+        //countByArrayList.dataProcess(envSource);//count word from arrayList
     }
 
 }
