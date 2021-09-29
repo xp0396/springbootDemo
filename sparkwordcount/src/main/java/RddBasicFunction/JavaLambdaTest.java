@@ -1,4 +1,4 @@
-package function;
+package RddBasicFunction;
 /*
 Lambda表达式主要用于定义一个函数式接口（functional interface：一个只包含一个抽象方法的接口）的内联实现，在上面的例子中，
 我们使用了各种类型的Lambda表达式来实现MathOperation接口的operation方法，接着又实现了GreetingService接口的sayMessage方法，

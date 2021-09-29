@@ -1,4 +1,4 @@
-package function;
+package RddBasicFunction;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;

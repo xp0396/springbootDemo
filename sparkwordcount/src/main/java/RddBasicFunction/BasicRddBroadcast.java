@@ -1,13 +1,10 @@
-package function;
+package RddBasicFunction;
 
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.broadcast.Broadcast;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.Arrays;
 
 public class BasicRddBroadcast {
     private  static final Logger logger = LoggerFactory.getLogger(BasicRddBroadcast.class);

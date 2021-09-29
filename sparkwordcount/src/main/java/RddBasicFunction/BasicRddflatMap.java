@@ -1,16 +1,12 @@
-package function;
+package RddBasicFunction;
 
-import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.api.java.function.Function;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import scala.Tuple2;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class BasicRddflatMap {
     private  static final Logger logger = LoggerFactory.getLogger(BasicRddflatMap.class);
