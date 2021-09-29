@@ -13,8 +13,6 @@ import java.util.HashMap;
 
 /**
  * @Description: spark的WordCount实战
- * @author: willzhao E-mail: zq2599@gmail.com
- * @date: 2019/2/8 17:21
  */
 public class WordCount {
 
@@ -48,6 +46,7 @@ public class WordCount {
         }
         count.dataProcess(envSource);//count word from txt file
         //countByArrayList.dataProcess(envSource);//count word from arrayList
+
     }
 
 }

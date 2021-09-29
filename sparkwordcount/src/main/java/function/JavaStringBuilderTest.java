@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Date;
 
-public class javaTest {
-    private  static final Logger logger = LoggerFactory.getLogger(javaTest.class);
+public class JavaStringBuilderTest {
+    private  static final Logger logger = LoggerFactory.getLogger(JavaStringBuilderTest.class);
     public static void main(String[] args) {
         long a=new Date().getTime();
         String cc="";
