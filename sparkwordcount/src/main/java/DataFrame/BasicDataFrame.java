@@ -78,13 +78,13 @@ public class BasicDataFrame {
                 .builder()
                 .appName("Java Spark SQL Example")
                 .master("local[*]")  //4 代表用4个线程处理
-                .config("spark.some.config.option", "some-value")
-                //.config("spark.sql.warehouse.dir","file:D:/java/workSpace/springbootDemo/sparkwordcount/input")
+                //.config("spark.some.config.option", "some-value")
+               .config("spark.sql.warehouse.dir","file:///D:/java/workSpace/springbootDemo/sparkwordcount/spark-warehouse") //windows 下执行，设置路径“file:///”
                 .getOrCreate();
         runBasicDataFrameExample(spark);
         //runDatasetCreationExample(spark);
-        //  runInferSchemaExample(spark);
-       // runProgrammaticSchemaExample(spark);
+        //runInferSchemaExample(spark);
+       //runProgrammaticSchemaExample(spark);
 
         spark.stop();
       //  Dataset<Row> df = spark.read().json("input/people.json");
@@ -167,10 +167,10 @@ public class BasicDataFrame {
         // +----+-------+
         // $example off:run_sql$
 
-        // $example on:global_temp_view$
+        // $example on:global_temp_view$ 在SPARK  2.1 及之后的版本才有
         // Register the DataFrame as a global temporary view
-        //df.createGlobalTempView("people");
-        df.createTempView("people");
+        df.createGlobalTempView("people");
+
         // Global temporary view is tied to a system preserved database `global_temp`
         spark.sql("SELECT * FROM global_temp.people").show();
         // +----+-------+
