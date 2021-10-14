@@ -1,4 +1,4 @@
-package main;
+package javaBasic;
 
 import RddBasicFunction.*;
 import org.apache.commons.lang3.StringUtils;

@@ -82,7 +82,7 @@ public class BasicDataFrame {
                .config("spark.sql.warehouse.dir","file:///D:/java/workSpace/springbootDemo/sparkwordcount/spark-warehouse") //windows 下执行，设置路径“file:///”
                 .getOrCreate();
         runBasicDataFrameExample(spark);
-        //runDatasetCreationExample(spark);
+        runDatasetCreationExample(spark);
         //runInferSchemaExample(spark);
        //runProgrammaticSchemaExample(spark);
 

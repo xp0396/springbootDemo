@@ -72,7 +72,7 @@
                     <includeProjectDependencies>false</includeProjectDependencies>
                     <includePluginDependencies>false</includePluginDependencies>
                     <classpathScope>compile</classpathScope>
-                    <mainClass>main.WordCount</mainClass>
+                    <mainClass>javaBasic.WordCount</mainClass>
                 </configuration>
             </plugin>
             <plugin>
